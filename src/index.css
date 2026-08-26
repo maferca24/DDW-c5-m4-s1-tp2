@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 @theme {
-  --color-primary:#2563eb; /*Azul brillante*/
-  --color-surface: #ffffff; /* Color de fondo*/
-  --color-text-dark: #1f2937;
-  --color-text-muted: #4b5563;
   --font-display: "Inter", sans-serif;
-}
+  
+  /* Colores extraídos del YAML de Stitch -  */
+  --color-primary: #0077b6;              /* primary-container- Azul botones y enlaces- */
+  --color-surface: #ffffff;              /* surface-container-lowest- Fondo blanco tarjetas */
+  --color-background: #f7f9fb;           /* surface-bright- Fondo gris claro del Hero */
+  --color-accent: #fea619;              /*  secondary-container- Dorado para el badge DESTACADO */
+  --color-on-surface: #191c1e;          /*  on-background- Texto oscuro principal */
+  --color-on-surface-variant: #404850;  /* on-surface-variant- Texto secundario/descripciones */
+  --color-footer: #2d3133;              /*  inverse-surface- Fondo oscuro del footer */
+}-font-display: "Inter", sans-serif;
+
 /*
 Color rojo:  #e50914
 */
+
