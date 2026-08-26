@@ -1,13 +1,19 @@
-import { useState } from 'react'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import FeatureSection from './components/FeatureSection';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      "Hola, hola"
-    </>
-  )
+    <div>
+      <Navbar />
+      <main>
+        <Hero />
+        <FeatureSection />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

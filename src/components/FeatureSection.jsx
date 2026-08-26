@@ -1,3 +1,4 @@
+/*Receta 
 import { features } from '../data/features';
 import FeatureCard from './FeatureCard';
 
@@ -25,4 +26,13 @@ function FeatureSection() {
   );
 }
 
-export default FeatureSection;
+export default FeatureSection;*/
+import React from 'react'
+
+function FeatureSection() {
+  return (
+    <div>FeatureSection</div>
+  )
+}
+
+export default FeatureSection
