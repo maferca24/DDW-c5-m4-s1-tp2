@@ -1,9 +1,9 @@
-import React from 'react'
-
-const Footer = () => {
+function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer>
+      <p>&copy; 2026 Cobertura Visita Papal Argentina. Todos los derechos reservados.</p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
