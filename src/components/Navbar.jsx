@@ -1,8 +1,11 @@
+//probando imagenes..
 import logoPapa from '../assets/papaenarg_logo.png';
+import logoPapa1 from '../assets/papaenarg_logo_1.png'
 import escudoPapa from '../assets/escudo_papaleon.png';
 
-// Cambiá el valor a 'escudoPapa' si preferís mostrar el escudo en lugar del logo
-const imagenSeleccionada = logoPapa; 
+
+// Definimos constante para que tome la imagen elegida
+const imagenSeleccionada = escudoPapa; 
 
 function Navbar() {
   const links = [
@@ -22,7 +25,7 @@ function Navbar() {
           <img 
             src={imagenSeleccionada} 
             alt="Logo/Escudo Oficial del Papa"
-            style={{ width: '40px', height: 'auto' }} // Ajustá el tamaño a tu gusto
+            style={{ width: '70px', height: 'auto' }}
           />
         </div>
 
