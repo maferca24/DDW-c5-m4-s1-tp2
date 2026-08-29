@@ -19,8 +19,8 @@ function Navbar() {
         {/* escudo */}
         <div >
           <img 
-          src={escudo} 
-          alt={`escudo Papa`}         
+          src={logo} 
+          alt={`logoPapa`}         
         />
           <span>🇻🇦</span> PapaLeonXVEnArg
         </div>
