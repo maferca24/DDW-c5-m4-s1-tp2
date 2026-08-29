@@ -1,3 +1,8 @@
+import logoPapa from '../assets/papaenarg_logo.png'
+import escudoPapa from '../assets/escudo_papaleon.png'
+const logo = logoPapa; 
+const escudo=escudoPapa
+
 function Navbar() {
   //defino array con los elementos del menu
   const links = [
@@ -11,8 +16,12 @@ function Navbar() {
   return (
     <header >
       <nav>
-        {/* Logo */}
+        {/* escudo */}
         <div >
+          <img 
+          src={escudo} 
+          alt={`escudo Papa`}         
+        />
           <span>🇻🇦</span> PapaLeonXVEnArg
         </div>
 
