@@ -25,7 +25,7 @@ function FeatureSection() {
   );
 }
 
-export default FeatureSection;*/
+export default FeatureSection;
 /*import React from 'react'
 
 function FeatureSection() {

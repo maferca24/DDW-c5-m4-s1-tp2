@@ -19,4 +19,4 @@ function FeatureCard({ title, description, isNew = false, onSelect }) {
   );
 }
 
-export default FeatureCard;*/
+export default FeatureCard;
