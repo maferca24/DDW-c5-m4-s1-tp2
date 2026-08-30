@@ -21,7 +21,7 @@ function Navbar() {
             className="w-10 h-auto"
           />
           <span className="font-display font-bold text-primary text-base leading-tight hidden sm:block">
-            Papa en Argentina
+            Papa León en Argentina
           </span>
         </div>
 

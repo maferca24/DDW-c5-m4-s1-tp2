@@ -21,8 +21,8 @@ Color rojo:  #e50914
 /* Reset y base global */
 *, *::before, *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 1;
 }
 
 html {
