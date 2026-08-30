@@ -1,4 +1,3 @@
-/*Receta 
 import { features } from '../data/features';
 import FeatureCard from './FeatureCard';
 
@@ -9,7 +8,7 @@ function FeatureSection() {
 
   return (
     <section className="px-6 py-16">
-      <h2 className="font-display text-3xl mb-8">Lo que ofrecemos</h2>
+      <h2 className="font-display text-3xl mb-8">Resumen</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {features.map((feature) => (
@@ -27,7 +26,7 @@ function FeatureSection() {
 }
 
 export default FeatureSection;*/
-import React from 'react'
+/*import React from 'react'
 
 function FeatureSection() {
   return (
@@ -35,4 +34,4 @@ function FeatureSection() {
   )
 }
 
-export default FeatureSection
+export default FeatureSection*/
