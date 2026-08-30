@@ -18,26 +18,6 @@
 Color rojo:  #e50914
 */
 
-/* Reset y base global */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 5;
-  padding: 1;
-}
 
-html {
-  scroll-behavior: smooth;
-}
 
-body {
-  font-family: "Inter", sans-serif;
-  background-color: #f7f9fb;
-  color: #191c1e;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
 
