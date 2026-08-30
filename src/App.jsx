@@ -5,9 +5,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-background text-on-surface font-display flex flex-col">
       <Navbar />
-      <main>
+      <main className="flex-1">
         <Hero />
         <FeatureSection />
       </main>
