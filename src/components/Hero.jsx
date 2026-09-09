@@ -46,7 +46,7 @@ function Hero() {
 
         </div>
 
-        {/* Imagen */}
+        {/* Imagen Papa Leon*/}
         <div className="flex-shrink-0 flex justify-center">
           <img
             src={leoXIV}
