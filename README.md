@@ -13,3 +13,7 @@ pnpm run dev
 
 ## Lo que me costó
 La disposición de los componentes en la página, use kiro.
+
+🌐 Link del Proyecto
+
+El proyecto está desplegado en Netlify 🔗 [(https://chic-conkies-236bd0.netlify.app/)]
